@@ -63,7 +63,7 @@ consistem em uma chave de acesso, uma chave secreta e um token de sessão.
 - **`System.getenv("AWS_SECRET_ACCESS_KEY")`**: Recupera a chave secreta da AWS.
 
 
-- **`System.getenv("AWS_SESSION_TOKEN"")`**: Recupera o token de sessão
+- **`System.getenv("AWS_SESSION_TOKEN")`**: Recupera o token de sessão
 
 **System.getenv()** é usado para acessar as variáveis de ambiente do sistema operacional. As variáveis de ambiente devem ser configuradas com as credenciais da AWS antes de executar o código.
 
