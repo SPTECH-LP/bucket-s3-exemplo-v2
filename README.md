@@ -54,7 +54,7 @@ consistem em uma chave de acesso, uma chave secreta e um token de sessão.
 
 #### Métodos
 
-- `S3Provider()`: Este é o construtor da classe. Ele é responsável por inicializar as credenciais da AWS. As credenciais são obtidas apartir das variáveis de ambiente:
+- `S3Provider()`: Este é o construtor da classe. Ele é responsável por inicializar as credenciais da AWS. As credenciais são obtidas a partir das variáveis de ambiente:
 
 
 - **`System.getenv("AWS_ACCESS_KEY_ID")`**: Recupera a chave de acesso da AWS.
