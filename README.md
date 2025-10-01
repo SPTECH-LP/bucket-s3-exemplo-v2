@@ -1,3 +1,5 @@
+![readmes-2](https://github.com/user-attachments/assets/36f8bee4-8aa2-427f-859b-c07302b7f640)
+
 ## Exemplo de Integração com Amazon S3 usando Java
 
 ### Visão Geral
