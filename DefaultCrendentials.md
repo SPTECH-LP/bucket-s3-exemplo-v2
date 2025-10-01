@@ -18,9 +18,7 @@ abaixo:
   aws.sessionToken=SEU_SESSION_TOKEN
   ```
 
-> 💡 **Dica**: veja como definir propriedades do sistema Java
->
-na [documentação oficial](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html).
+> 💡 **Dica**: veja como definir propriedades do sistema Java na [documentação oficial](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html).
 >
 
 ---
@@ -29,7 +27,30 @@ na [documentação oficial](https://docs.oracle.com/javase/tutorial/essential/en
 
 * **Provedor**: `EnvironmentVariableCredentialsProvider`
 * Carrega credenciais a partir das variáveis de ambiente.
-* Você pode definir na IDE ou no terminal:
+* Você pode definir na IDE
+> **Dica:** Você pode utilizar o IntelliJ para setar as variáveis de ambiente.
+>
+> <table> 
+> <tr>
+> <td align="center">
+> <img width="1251" height="508" alt="image" src="https://github.com/user-attachments/assets/10a6f113-de19-4f7e-9b39-4c579f55a639" />
+> </td>
+> <td align="center">
+> <img width="823" height="678" alt="image" src="https://github.com/user-attachments/assets/95380179-1860-4a60-89f5-4f27903bf786" />
+> </td>
+> <td align="center">
+> <img width="823" height="678" alt="image" src="https://github.com/user-attachments/assets/e1019e27-7756-43f3-9fb3-4c96f1f857aa" />
+> </td>
+> </tr>
+  
+> </table>
+  
+  
+  
+
+
+
+*  ou no terminal:
 
   ```bash
   export AWS_ACCESS_KEY_ID=SEU_ACCESS_KEY
