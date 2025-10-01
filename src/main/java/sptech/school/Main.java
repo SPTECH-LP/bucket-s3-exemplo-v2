@@ -50,11 +50,11 @@ public class Main {
         // *   Listando objetos do bucket      *
         // *************************************
         try {
-            ListObjectsRequest listObjects = ListObjectsRequest.builder()
+            ListObjectsRequest requisicao = ListObjectsRequest.builder()
                     .bucket(bucketName)
                     .build();
 
-            List<S3Object> objects = s3Client.listObjects(listObjects).contents();
+            List<S3Object> objects = s3Client.listObjects(requisicao).contents();
             System.out.println("Objetos no bucket " + bucketName + ":");
             for (S3Object object : objects) {
                 System.out.println("- " + object.key());
@@ -85,7 +85,10 @@ public class Main {
         // *   Fazendo download de arquivos    *
         // *************************************
         try {
-            List<S3Object> objects = s3Client.listObjects(ListObjectsRequest.builder().bucket(bucketName).build()).contents();
+            ListObjectsRequest requisicao = ListObjectsRequest.builder()
+                  .bucket(bucketName)
+                  .build();
+            List<S3Object> objects = s3Client.listObjects(requisicao).contents();
             for (S3Object object : objects) {
                 GetObjectRequest getObjectRequest = GetObjectRequest.builder()
                         .bucket(bucketName)
